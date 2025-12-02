@@ -100,7 +100,7 @@ class StrategyList extends StatelessWidget {
                   onTap: () {
                     // AQUÍ CONECTAMOS CON LA PANTALLA DE DETALLE (Pantalla 5)
                     Navigator.push(context, MaterialPageRoute(
-                      builder: (_) => DetailScreen(data: data)
+                      builder: (_) => DetailScreen(data: data, docId: '',)
                     ));
                   },
                 ),
